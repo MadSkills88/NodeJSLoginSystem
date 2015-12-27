@@ -42,10 +42,8 @@
 
   .hide{display:none}
 
-  /*swich form*/
-  #signup:checked~.section-out{margin-left:-350px}
-  #login:checked~.section-out{margin-left:0px}
-  #login:checked~div .form-header li:nth-child(1),#signup:checked~div .form-header li:nth-child(2){background:#e8e8e8}
+  div .form-header li{text-decoration:none}
+  div .form-header li:nth-child(1){background:#e8e8e8}
 </style>
 </head>
 <body>
@@ -54,7 +52,7 @@
 <div>
 <ul class="form-header">
 <li><label for="signup"><i class="fa fa-credit-card"></i> REGISTER</label></li>
-<li><label for="login"><i class="fa fa-lock"></i> LOGIN<label for="login"></li>
+<li><a href="/login"><label for="login"><i class="fa fa-lock"></i> LOGIN<label for="login"></a></li>
 </ul>
 </div>
 
