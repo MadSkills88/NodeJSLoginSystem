@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="en-IN">
 <head>
-<meta charset="utf-8">
-<title>User Authentification</title>
-<link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
-<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="/css/form-style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>User Authentification</title>
+    <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/form-style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<div id="login-form">
-<div>
-<ul class="form-header">
-<li><label for="login"><i class="fa fa-lock"></i> LOGIN<label for="login"></li>
-<li><a href="/signup"><label for="signup"><i class="fa fa-credit-card"></i> REGISTER</label></a></li>
-</ul>
-</div>
-<% if (message.length > 0) { %>
-    <div class="alert alert-danger"><%= message %></div>
-<% } %>
-<div class="section-out">
-<section class="login-section">
-<div class="login">
-<form action="/login" method="post">
-  <ul class="ul-list">
-  <li><input name="email" type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
-  <li><input name="password" type="password" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
-  <li><span class="remember"><input type="checkbox" id="check"> <label for="check">Remember Me</label></span><span class="remember"><a href="">Forget Password</a></span></li>
-  <li><input type="submit" value="SIGN IN" class="btn"></li>
-  </ul>
-</form>
-</div>
-
-<div class="social-login">Or sign in with &nbsp;
-<a href="" class="fb"><i class="fa fa-facebook"></i></a>
-<a href="" class="tw"><i class="fa fa-twitter"></i></a>
-<a href="" class="gp"><i class="fa fa-google-plus"></i></a>
-<a href="" class="in"><i class="fa fa-linkedin"></i></a>
-</div>
-</section>
-</div>
-
-</div>
-
+    <div id="login-form">
+        <div>
+            <ul class="form-header">
+                <li>
+                    <label for="login"><i class="fa fa-lock"></i> LOGIN</label>
+                </li>
+                <li>
+                    <a href="/signup">
+                        <label for="signup"><i class="fa fa-credit-card"></i> REGISTER</label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <% if (message.length > 0) { %>
+            <div class="alert alert-danger"><%= message %></div>
+        <% } %>
+        <div class="section-out">
+            <section class="login-section">
+                <div class="login">
+                    <form action="/login" method="post">
+                        <ul class="ul-list">
+                            <li>
+                                <input name="email" type="email" required class="input" placeholder="Your Email" /><span class="icon"><i class="fa fa-user"></i></span></li>
+                            <li>
+                                <input name="password" type="password" required class="input" placeholder="Password" /><span class="icon"><i class="fa fa-lock"></i></span></li>
+                            <li><span class="remember"><input type="checkbox" id="check"> <label for="check">Remember Me</label></span><span class="remember"><a href="">Forget Password</a></span></li>
+                            <li>
+                                <input type="submit" value="SIGN IN" class="btn">
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="social-login">Or sign in with &nbsp;
+                    <a href="" class="fb"><i class="fa fa-facebook"></i></a>
+                    <a href="" class="tw"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="gp"><i class="fa fa-google-plus"></i></a>
+                    <a href="" class="in"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
