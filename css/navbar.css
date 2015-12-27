@@ -139,6 +139,15 @@ a:focus {
   }
   .rectangle-button {
     border: none;
+    display: inline-block;
+    padding-top: 0.35em;
+    color: white;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
   }
   #navbar {
     background-color: white!important;
