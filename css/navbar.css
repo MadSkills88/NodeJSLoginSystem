@@ -53,7 +53,7 @@ a:focus {
 }
 
 .rectangle-button {
-  border: 1px solid #74AFAD;
+  border: 2px solid #74AFAD;
   color: #74AFAD;
   padding-top:3px;
   padding-bottom:3px;
@@ -61,7 +61,7 @@ a:focus {
   padding-right:16px;
   line-height: normal;
   margin-top: 4px;
-  background-color: white;
+  background: white;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -70,7 +70,7 @@ a:focus {
 
 .rectangle-button:hover {
   color: #558C89;
-  border:1px solid #558C89;
+  border:2px solid #558C89;
 }
 
 .navlink {

@@ -5,7 +5,16 @@ body {
         gold is best
     **/
 }
-
+/**Modifications to NAVBAR css**/
+#signup-button {
+  background: #74AFAD;
+  color:white;
+}
+#signup-button:hover {
+  background: #558C89;
+  color:white;
+}
+/**END of modifications to NAVBAR css **/
 .large-header {
   background:whitesmoke;
   height: 100vh;
