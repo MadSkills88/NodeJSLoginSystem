@@ -54,7 +54,7 @@ a:focus {
   color: #74AFAD;
   line-height: 3em;
   margin-top: 4px;
-  background-color: transparent;
+  background-color: white;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -63,7 +63,7 @@ a:focus {
 
 .rectangle-button:hover {
   color: #558C89;
-  border:1px solid #558C89;
+  border:2px solid #558C89;
 }
 
 .navlink {
@@ -189,12 +189,12 @@ a:focus {
 }
 
 #navbar li.current-menu-item a {
-  color: #fff;
+  color: #558C89;
   text-decoration: none;
 }
 
 #navbar li.current_page_item {
-  color: #fff;
+  color: #558C89;
   text-decoration: none;
 }
 
@@ -218,7 +218,7 @@ a:focus {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff!important;
+  background-color: #558C89!important;
 }
 
 @media (min-width: 740px) {
@@ -237,7 +237,7 @@ a:focus {
     border-color: transparent;
   }
   #header {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: white;
     padding: 0px;
   }
   ul {
@@ -250,7 +250,7 @@ a:focus {
   }
   #navbar ul li a {
     text-align: left;
-    line-height: 2em;
+    line-height: 3em;
   }
   .scheduleSection .scheduleEvent p.text-thin {
     margin: 0;
