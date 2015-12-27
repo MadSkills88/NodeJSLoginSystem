@@ -12,7 +12,9 @@ body {
 }
 #signup-button:hover {
   background: #38cfc7;
-  color:white;
+}
+#signup-button a {
+  color: white;
 }
 /**END of modifications to NAVBAR css **/
 .large-header {
