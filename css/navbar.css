@@ -39,11 +39,11 @@ a:focus {
 #header {
   left: 0;
   right: 0;
-  padding: 14px;
+  padding: 20px;
   top: 0;
   line-height: 14px;
   color: #fff;
-  background-color: rgba(40, 40, 40, 0);
+  background:black;
   position: fixed;
   z-index: 1;
   text-align: right;
