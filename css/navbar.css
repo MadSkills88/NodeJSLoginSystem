@@ -41,8 +41,8 @@ a:focus {
   right: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
   top: 0;
   line-height: 14px;
   color: #fff;
@@ -55,7 +55,11 @@ a:focus {
 .rectangle-button {
   border: 2px solid #74AFAD;
   color: #74AFAD;
-  line-height: 4em;
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-left:10px;
+  padding-right:10px;
+  line-height: normal;
   margin-top: 4px;
   background-color: white;
   transition: all 0.3s ease-in-out;
@@ -252,7 +256,7 @@ a:focus {
   }
   #navbar ul li a {
     text-align: left;
-    line-height: 0.5em;
+    line-height: normal;
   }
   .scheduleSection .scheduleEvent p.text-thin {
     margin: 0;
