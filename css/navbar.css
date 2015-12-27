@@ -39,9 +39,9 @@ a:focus {
 #header {
   left: 0;
   right: 0;
-  padding: 10px;
+  padding: 14px;
   top: 0;
-  line-height: 10px;
+  line-height: 14px;
   color: #fff;
   background-color: rgba(40, 40, 40, 0);
   position: fixed;
@@ -49,28 +49,21 @@ a:focus {
   text-align: right;
 }
 
-.pill-button {
+.rectangle-button {
   border: 1px solid white;
-  border-radius: 50px;
-  line-height: 1em;
+  line-height: 1.5em;
   margin-top: 4px;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-}
-
-.pill-button>a {
   color: white;
 }
 
-.pill-button:hover {
-  background-color: green;
-}
-
-.pill-button:hover>a {
-  color: black;
+.rectangle-button:hover {
+  color: #C1E1A6;
+  border:1px solid #C1E1A6;
 }
 
 .navlink {
@@ -143,7 +136,7 @@ a:focus {
     background-color: black;
     height: 45px;
   }
-  .pill-button {
+  .rectangle-button {
     display: none!important;
   }
   #navbar {
@@ -268,4 +261,3 @@ a:focus {
   top: 0.5em;
   right: 0.5em;
 }
-
