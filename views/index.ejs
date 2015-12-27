@@ -1,25 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Node Authentication</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>navbar</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-    <style>
-        body         { padding-top:80px; }
-    </style>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/navbar.js"></script>
 </head>
 <body>
-<div class="container">
-
-    <div class="jumbotron text-center">
-        <p>Login or Register with:</p>
-        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
-        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
-        <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
-        <a href="/auth/twitter" class="btn btn-info"><span class="fa fa-twitter"></span> Twitter</a>
-        <a href="/auth/google" class="btn btn-danger"><span class="fa fa-google-plus"></span> Google+</a>
+    <!-- NAVBAR -->
+    <div id="header" class="header sticky">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li id="navbar_1" class="navlink"><a href="#home">Home</a></li>
+                <li id="navbar_2" class="navlink"><a href="#speakers">Event</a></li>
+                <li id="navbar_3" class="navlink"><a href="#about">About</a></li>
+                <li id="navbar_4" class="navlink"><a href="#faq">FAQ</a></li>
+                <li id="navbar_5" class="navlink"><a href="#sponsors">Sponsors</a></li>
+                <li id="navbar_6" class="navlink"><a href="#press">Press</a></li>
+                <li class="pill-button"><a href="https://hackingedu.typeform.com/to/ynFajD">Apply</a></li>
+            </ul>
+        </div>
     </div>
+    <!-- BODY -->
+    <section id="main">
+        <div id="home">
+            <div id="large-header" class="large-header">
 
-</div>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+
+    </section>
 </body>
+
 </html>

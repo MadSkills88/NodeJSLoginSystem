@@ -33,6 +33,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs'); // set up ejs for templating
 // set up the css folder
 app.use("/css",express.static(__dirname + "/css"));
+// set up the js folder where the javascript for frontend is stored
+app.use("/js",express.static(__dirname + "/js"));
 
 // required for passport
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' })); // session secret

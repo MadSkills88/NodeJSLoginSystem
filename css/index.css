@@ -1,0 +1,28 @@
+body {
+    margin:0 auto;
+    background:gold;
+    /**lemonchiffon, white, orange, #ffb347, gold
+        gold is best
+    **/
+}
+
+.large-header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  opacity:0.8;
+  -webkit-transition-duration: 4s;
+    -moz-transition-duration: 4s;
+    -o-transition-duration: 4s;
+    transition-duration: 4s;
+}
+.large-header:hover {
+    opacity:1;
+}
+
+#content {
+    width:100%;
+    height:1000px;
+    margin:0 auto;
+    background:white;
+}
