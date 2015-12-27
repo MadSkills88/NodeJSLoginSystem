@@ -138,7 +138,7 @@ a:focus {
     height: 45px;
   }
   .rectangle-button {
-    display: none!important;
+    border: none;
   }
   #navbar {
     background-color: white!important;
@@ -151,9 +151,6 @@ a:focus {
   }
   .ml-1em {
     margin-left: 0;
-  }
-  #sponsor .tier4 figure {
-    height: 8em!important;
   }
   .main-txt {
     font-size: 2.1em;
