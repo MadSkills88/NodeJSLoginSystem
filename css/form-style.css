@@ -227,6 +227,7 @@ input {
 
 div .form-header li a {
   text-decoration: none
+  color:black;
 }
 
 div .form-header li:nth-child(1) {
