@@ -8,7 +8,7 @@
 <style>
   body{font-family: 'Ropa Sans', sans-serif; color:#666; font-size:14px; color:#333}
   li,ul,body,input{margin:0; padding:0; list-style:none}
-  #login-form{width:350px; background:#FFF; margin:0 auto; margin-top:70px; background:#f8f8f8; overflow:hidden; border-radius:7px}
+  #login-form, #signup-form{width:350px; background:#FFF; margin:0 auto; margin-top:70px; background:#f8f8f8; overflow:hidden; border-radius:7px}
   .form-header{display:table; clear:both}
   .form-header label{display:block; cursor:pointer; z-index:999}
   .form-header li{margin:0; line-height:60px; width:175px; text-align:center; background:#eee; font-size:18px; float:left; transition:all 600ms ease}
@@ -47,7 +47,7 @@
 </style>
 </head>
 <body>
-<div id="login-form">
+<div id="signup-form">
 
 <div>
 <ul class="form-header">
@@ -58,7 +58,7 @@
 
 <div class="section-out">
 <section class="signup-section">
-<div class="login">
+<div class="signup">
 <form action="/signup" method="post">
   <ul class="ul-list">
   <li><input name="email" type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>

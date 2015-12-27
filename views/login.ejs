@@ -53,7 +53,9 @@
 <li><a href="/signup"><label for="signup"><i class="fa fa-credit-card"></i> REGISTER</label></a></li>
 </ul>
 </div>
-
+<% if (message.length > 0) { %>
+    <div class="alert alert-danger"><%= message %></div>
+<% } %>
 <div class="section-out">
 <section class="login-section">
 <div class="login">
