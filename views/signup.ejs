@@ -18,7 +18,7 @@
   .section-out:after{content:''; clear:both; display:table}
   .section-out section{width:350px; float:left}
 
-  .login{padding:20px}
+  .login, .signup{padding:20px}
   .ul-list{clear:both; display:table; width:100%}
   .ul-list:after{content:''; clear:both; display:table}
   .ul-list li{ margin:0 auto; margin-bottom:12px}
@@ -55,7 +55,9 @@
 <li><a href="/login"><label for="login"><i class="fa fa-lock"></i> LOGIN<label for="login"></a></li>
 </ul>
 </div>
-
+<% if (message.length > 0) { %>
+    <div class="alert alert-danger"><%= message %></div>
+<% } %>
 <div class="section-out">
 <section class="signup-section">
 <div class="signup">
