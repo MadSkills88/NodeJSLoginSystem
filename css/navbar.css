@@ -138,7 +138,6 @@ a:focus {
     height: 45px;
   }
   .rectangle-button {
-    border: none;
     display: inline-block;
     padding-top: 0.35em;
     color: white;
@@ -156,16 +155,7 @@ a:focus {
   #navbar ul {
     float: left!important;
     position: relative;
-    padding-top: 5em!important;
-  }
-  .ml-1em {
-    margin-left: 0;
-  }
-  .main-txt {
-    font-size: 2.1em;
-  }
-  .sub-text {
-    font-size: 1.2em;
+    padding-top: 2em!important;
   }
 }
 
