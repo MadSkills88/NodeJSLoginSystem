@@ -1,7 +1,7 @@
 body {
   font-family: Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
-  background:black;
+  background:white;
 }
 
 *:hover,
@@ -50,9 +50,9 @@ a:focus {
 }
 
 .rectangle-button {
-  border: 1px solid #74AFAD;
+  border: 2px solid #74AFAD;
   color: #74AFAD;
-  line-height: 2em;
+  line-height: 3em;
   margin-top: 4px;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -107,7 +107,7 @@ a:focus {
 
 #header li {
   margin-bottom: 0;
-  margin-left:100px;
+  margin-left:20px;
 }
 
 @media (max-width: 768px) {
@@ -131,17 +131,17 @@ a:focus {
   .navbar-toggle .icon-bar {
     position: relative;
     z-index: 5;
-    background-color: white;
+    background-color: #558C89;
   }
   #header {
-    background-color: black;
+    background-color: white;
     height: 45px;
   }
   .rectangle-button {
     display: none!important;
   }
   #navbar {
-    background-color: black!important;
+    background-color: white!important;
     z-index: 20;
   }
   #navbar ul {

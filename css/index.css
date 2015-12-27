@@ -1,12 +1,13 @@
 body {
     margin:0 auto;
-    background:gold;
+    background:white;
     /**lemonchiffon, white, orange, #ffb347, gold
         gold is best
     **/
 }
 
 .large-header {
+  background:whitesmoke;
   height: 100vh;
   background-size: cover;
   background-position: center center;
