@@ -1,6 +1,3 @@
-@import url("http://fonts.googleapis.com/css?family=Ropa+Sans");
-
-
 body{font-family: 'Ropa Sans', sans-serif; color:#666; font-size:14px; color:#333}
 li,ul,body,input{margin:0; padding:0; list-style:none}
 #login-form,#signup-form{width:350px; background:#FFF; margin:0 auto; margin-top:70px; background:#f8f8f8; overflow:hidden; border-radius:7px}
