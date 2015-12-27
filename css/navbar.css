@@ -249,7 +249,7 @@ a:focus {
   }
   #navbar ul li a {
     text-align: left;
-    line-height: 3em;
+    line-height: 1em;
   }
   .scheduleSection .scheduleEvent p.text-thin {
     margin: 0;
