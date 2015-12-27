@@ -16,6 +16,17 @@ body {
 #signup-button a {
   color: white;
 }
+@media (max-width: 740px) {
+  #signup-button {
+    background:white;
+  }
+  #signup-button:hover {
+    background:white;
+  }
+  #signup-button a {
+    color: #29ABA4;
+  }
+}
 /**END of modifications to NAVBAR css **/
 .large-header {
   background:whitesmoke;
