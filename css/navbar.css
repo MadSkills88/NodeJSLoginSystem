@@ -51,7 +51,15 @@ a:focus {
   z-index: 1;
   text-align: right;
 }
-.rectangle-button {
+
+.rectangle-button:hover {
+  color: #38cfc7;
+  border:2px solid #38cfc7;
+}
+.rectangle-button a {
+  text-align:center;
+  margin:0 auto;
+  padding: 15px 10px 10px 15px;
   border: 2px solid #29ABA4;
   color: #29ABA4;
   line-height: normal;
@@ -61,19 +69,6 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-}
-.rectangle-button:hover {
-  color: #38cfc7;
-  border:2px solid #38cfc7;
-}
-.rectangle-button a {
-  color:#29ABA4;
-  text-align:center;
-  margin:0 auto;
-  padding: 15px 10px 10px 15px;
-  height:40px;
-  width:100px
-
 }
 .rectangle-button a:hover {
   color:#38cfc7;
