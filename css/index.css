@@ -19,10 +19,10 @@ body {
 @media (max-width: 740px) {
   #signup-button {
     background:white;
-    color:#29ABA4;
+    color:#29ABA4!important;
   }
   #signup-button:hover {
-    background:white;
+    background:white!important;
   }
 }
 /**END of modifications to NAVBAR css **/
