@@ -59,7 +59,7 @@ a:focus {
   padding-bottom:3px;
   padding-left:16px;
   padding-right:16px;
-  background:white;
+  background:red;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -68,6 +68,7 @@ a:focus {
 #navbar li a:hover {
   color: #38cfc7;
   border:2px solid #38cfc7;
+  background:green;
 }
 .navlink {
   display: inline-block;
