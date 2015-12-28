@@ -154,8 +154,7 @@ input {
 .btn {
   border: none;
   outline: none;
-  background: #0099CC;
-  border-bottom: solid 4px #006699;
+  background: #29ABA4;
   font-family: 'Ropa Sans', sans-serif;
   margin: 0 auto;
   display: block;
@@ -165,6 +164,10 @@ input {
   border-radius: 3px;
   font-size: 16px;
   color: #FFF
+}
+
+.btn:hover {
+  background:#38cfc7;
 }
 
 .social-login {
