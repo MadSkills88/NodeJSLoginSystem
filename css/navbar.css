@@ -51,10 +51,9 @@ a:focus {
   z-index: 1;
   text-align: right;
 }
-.rectangle-button a {
+#navbar li a {
   border: 2px solid #29ABA4;
   color:#29ABA4;
-  background:white;
   text-align:center;
   padding-top:8px;
   padding-bottom:8px;
@@ -65,7 +64,7 @@ a:focus {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-.rectangle-button a:hover {
+#navbar li a:hover {
   color: #38cfc7;
   border:2px solid #38cfc7;
   background:white;
