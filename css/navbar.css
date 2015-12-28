@@ -51,7 +51,7 @@ a:focus {
   z-index: 1;
   text-align: right;
 }
-#navbar li a {
+#navbar ul li a {
   border: 2px solid #29ABA4;
   color:#29ABA4;
   text-align:center;
@@ -64,7 +64,7 @@ a:focus {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-#navbar li a:hover {
+#navbar ul li a:hover {
   color: #38cfc7;
   border:2px solid #38cfc7;
   background:white;
@@ -122,7 +122,7 @@ a:focus {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-  background-color: transparent!important;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -158,6 +158,10 @@ a:focus {
     line-height: normal;
     border:none;
     background:white;
+  }
+  #navbar ul li a:hover {
+    border:none;
+    color:#29ABA4;
   }
   .scheduleSection .scheduleEvent p.text-thin {
     margin: 0;
