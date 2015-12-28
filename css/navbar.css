@@ -55,10 +55,10 @@ a:focus {
   border: 2px solid #29ABA4;
   color:#29ABA4;
   text-align:center;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:30px;
-  padding-right:30px;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:16px;
+  padding-right:16px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -107,6 +107,14 @@ a:focus {
   z-index: 2;
 }
 
+#navbar ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -141,6 +149,9 @@ a:focus {
   }
   #header {
     background-color: white;
+    padding: 0px;
+  }
+  ul {
     padding: 0px;
   }
   #navbar {
