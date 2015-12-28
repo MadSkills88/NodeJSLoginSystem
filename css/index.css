@@ -6,29 +6,25 @@ body {
     **/
 }
 /**Modifications to NAVBAR css**/
-/**
-#signup-button {
-  background: #29ABA4;
-  color:white;
-}
-#signup-button:hover {
-  background: #38cfc7;
-}
 #signup-button a {
   color: white;
+  border:2px solid #29ABA4;
+  background:#29ABA4;
+}
+#signup-button a:hover {
+  border:2px solid #38cfc7;
+  background:#38cfc7;
+  color:white;
 }
 @media (max-width: 740px) {
-  #signup-button {
-    background:white;
-  }
-  #signup-button:hover {
-    background:white;
-  }
   #signup-button a {
+    background:white;
     color: #29ABA4;
   }
+  #signup-button a:hover {
+    background:white;
+  }
 }
-**/
 /**END of modifications to NAVBAR css **/
 .large-header {
   background:whitesmoke;
