@@ -23,6 +23,7 @@ body {
   }
   #signup-button:hover {
     background:white!important;
+    color:#29ABA4!important;
   }
 }
 /**END of modifications to NAVBAR css **/
