@@ -109,10 +109,6 @@ a:focus {
 
 #navbar ul {
   float: right;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-image: none;
 }
 
 .navbar {
@@ -149,9 +145,6 @@ a:focus {
   }
   #header {
     background-color: white;
-    padding: 0px;
-  }
-  ul {
     padding: 0px;
   }
   #navbar {
