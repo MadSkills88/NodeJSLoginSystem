@@ -65,7 +65,7 @@ a:focus {
   color: #38cfc7;
   border:2px solid #38cfc7;
 }
-.rectangle-button > a {
+.rectangle-button a {
   color:#29ABA4;
   padding-top:6px;
   padding-bottom:6px;
