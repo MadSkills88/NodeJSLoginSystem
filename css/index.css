@@ -7,14 +7,14 @@ body {
 }
 /**Modifications to NAVBAR css**/
 #signup-button {
-  color:white;
+  color:white!important;
   border:2px solid #29ABA4;
   background:#29ABA4;
 }
 #signup-button:hover {
   border:2px solid #38cfc7;
-  background:#38cfc7;
-  color:white;
+  background:#38cfc7!important;
+  color:white!important;
 }
 
 /**END of modifications to NAVBAR css **/
