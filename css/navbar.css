@@ -39,8 +39,8 @@ a:focus {
 #header {
   left: 0;
   right: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 4%;
   padding-right: 4%;
   top: 0;
@@ -57,8 +57,8 @@ a:focus {
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left:40px;
+  padding-right:40px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
