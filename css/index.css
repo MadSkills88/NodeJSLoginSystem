@@ -6,22 +6,22 @@ body {
     **/
 }
 /**Modifications to NAVBAR css**/
-#signup-button a {
-  color: white;
+#signup-button {
+  color:white;
   border:2px solid #29ABA4;
   background:#29ABA4;
 }
-#signup-button a:hover {
+#signup-button:hover {
   border:2px solid #38cfc7;
   background:#38cfc7;
   color:white;
 }
 @media (max-width: 740px) {
-  #signup-button a {
+  #signup-button {
     background:white;
-    color: #29ABA4;
+    color:#29ABA4;
   }
-  #signup-button a:hover {
+  #signup-button:hover {
     background:white;
   }
 }

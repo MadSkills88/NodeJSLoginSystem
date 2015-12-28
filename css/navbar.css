@@ -156,6 +156,8 @@ a:focus {
   #navbar ul li a {
     text-align: left;
     line-height: normal;
+    border:none;
+    background:white;
   }
   .scheduleSection .scheduleEvent p.text-thin {
     margin: 0;
