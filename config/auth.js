@@ -4,9 +4,9 @@
 module.exports = {
 
     'facebookAuth' : {
-        'clientID'        : 'your-secret-clientID-here', // your App ID
-        'clientSecret'    : 'your-client-secret-here', // your App Secret
-        'callbackURL'     : 'http://localhost:8080/auth/facebook/callback'
+        'clientID'        : '542387389270129', // your App ID
+        'clientSecret'    : 'f63eed01bedf40346703bd51a9d3faf2', // your App Secret
+        'callbackURL'     : 'https://aqueous-tundra-9309.herokuapp.com/auth/facebook/callback'
     },
 
     'twitterAuth' : {
