@@ -238,3 +238,7 @@ div .form-header li:nth-child(1) {
   background: #e8e8e8;
   color: #29ABA4;
 }
+
+div .form-header li:nth-child(2) {
+  color:darkgray;
+}
