@@ -46,7 +46,6 @@ input {
   font-size: 18px;
   float: left;
   transition: all 600ms ease;
-  color:gray;
 }
 
 
@@ -232,7 +231,7 @@ input {
 
 div .form-header li a {
   text-decoration: none;
-  color:black;
+  color:gray;
 }
 
 div .form-header li:nth-child(1) {
