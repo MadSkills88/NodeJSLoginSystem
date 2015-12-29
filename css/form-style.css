@@ -45,7 +45,7 @@ input {
   background: #eee;
   font-size: 18px;
   float: left;
-  transition: all 600ms ease
+  transition: all 600ms ease;
   color:gray;
 }
 
