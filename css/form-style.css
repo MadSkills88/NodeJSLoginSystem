@@ -78,7 +78,7 @@ input {
 .signup p,
 .login form ul li label,
 .signup form ul li label {
-  color:lightgray;
+  color:#dddfdf;
 }
 
 .ul-list {
@@ -184,7 +184,7 @@ input {
   background: #f6f8f8;
   border-top: solid 2px #e8e8e8;
   text-align: right;
-  color:lightgray;
+  color:#dddfdf;
 }
 
 .social-login a {
