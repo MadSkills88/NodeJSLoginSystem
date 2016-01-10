@@ -18,12 +18,12 @@ input {
 
 #login-form,
 #signup-form {
-  width: 350px;
+  width: 500px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 100px;
   background: #f6f8f8;
   overflow: hidden;
-  border-radius: 7px
+  border-radius: 6px
 }
 
 .form-header {
@@ -173,7 +173,7 @@ input {
 
 .social-login {
   padding: 15px 20px;
-  background: #f1f1f1;
+  background: #f6f8f8;
   border-top: solid 2px #e8e8e8;
   text-align: right;
 }
