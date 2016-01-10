@@ -20,7 +20,7 @@ input {
 #signup-form {
   width: 500px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 100px;
   background: #f6f8f8;
   overflow: hidden;
   border-radius: 7px
@@ -28,7 +28,7 @@ input {
 
 .form-header {
   display: table;
-  clear: both
+  clear: both;
 }
 
 .form-header label {
@@ -40,9 +40,9 @@ input {
 .form-header li {
   margin: 0;
   line-height: 60px;
-  width: 175px;
+  width: 50%;
   text-align: center;
-  background: #f6f8f8;
+  background: #f7f9f9;
   font-size: 18px;
   float: left;
   transition: all 600ms ease;
@@ -52,7 +52,7 @@ input {
 /*sectiop*/
 
 .section-out {
-  width: 700px;
+  width: 200%;
   float: left;
   transition: all 600ms ease
 }
@@ -64,7 +64,7 @@ input {
 }
 
 .section-out section {
-  width: 350px;
+  width: 100%;
   float: left
 }
 
@@ -93,7 +93,7 @@ input {
 .input {
   background: #fff;
   transition: all 800ms;
-  width: 247px;
+  width: 70%;
   border-radius: 3px 0 0 3px;
   font-family: 'Open Sans', sans-serif;
   border: solid 1px #ccc;
@@ -235,6 +235,6 @@ div .form-header li a {
 }
 
 div .form-header li:nth-child(1) {
-  background: #fafbfb;
+  background: ##f6f8f8;
   color: #29ABA4;
 }
