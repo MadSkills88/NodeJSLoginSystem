@@ -20,10 +20,10 @@ input {
 #signup-form {
   width: 500px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
   background: #f6f8f8;
   overflow: hidden;
-  border-radius: 6px
+  border-radius: 7px
 }
 
 .form-header {
@@ -42,7 +42,7 @@ input {
   line-height: 60px;
   width: 175px;
   text-align: center;
-  background: #e8eded;
+  background: #f6f8f8;
   font-size: 18px;
   float: left;
   transition: all 600ms ease;
@@ -235,6 +235,6 @@ div .form-header li a {
 }
 
 div .form-header li:nth-child(1) {
-  background: #d9e2e2;
+  background: #fafbfb;
   color: #29ABA4;
 }
