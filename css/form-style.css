@@ -80,6 +80,10 @@ input {
 .signup form ul li {
   color:gray;
 }
+.login p a,
+.signup p a {
+  color:#29ABA4;
+}
 
 .ul-list {
   clear: both;
