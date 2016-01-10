@@ -1,9 +1,10 @@
 body {
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #666;
   font-size: 14px;
   color: #333;
-  background:whitesmoke;
+  background:#f6f8f8;
+  line-height:1.5em;
 }
 
 li,
@@ -18,10 +19,9 @@ input {
 #login-form,
 #signup-form {
   width: 350px;
-  background: #FFF;
   margin: 0 auto;
   margin-top: 70px;
-  background: #f8f8f8;
+  background: #f6f8f8;
   overflow: hidden;
   border-radius: 7px
 }
@@ -42,7 +42,7 @@ input {
   line-height: 60px;
   width: 175px;
   text-align: center;
-  background: #eee;
+  background: #e8eded;
   font-size: 18px;
   float: left;
   transition: all 600ms ease;
@@ -95,7 +95,7 @@ input {
   transition: all 800ms;
   width: 247px;
   border-radius: 3px 0 0 3px;
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: solid 1px #ccc;
   border-right: none;
   outline: none;
@@ -156,7 +156,7 @@ input {
   border: none;
   outline: none;
   background: #29ABA4;
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   display: block;
   height: 40px;
@@ -235,6 +235,6 @@ div .form-header li a {
 }
 
 div .form-header li:nth-child(1) {
-  background: #e8e8e8;
+  background: #d9e2e2;
   color: #29ABA4;
 }
