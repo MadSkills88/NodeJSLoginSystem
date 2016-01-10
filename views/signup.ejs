@@ -107,11 +107,6 @@
                 <li>
                     <label for="signup"><i class="fa fa-credit-card"></i> REGISTER</label>
                 </li>
-                <li>
-                    <a href="/login">
-                        <label for="login"><i class="fa fa-lock"></i> LOGIN</label>
-                    </a>
-                </li>
             </ul>
         </div>
         <% if (message.length > 0) { %>
@@ -135,6 +130,7 @@
                             </li>
                         </ul>
                     </form>
+                    <p>Already have an account? <a href="/login">Sign in</a></p>
                 </div>
                 <div class="social-login">Or sign up with &nbsp;
                   <a href="/auth/facebook" class="fb"><i class="fa fa-facebook"></i></a>

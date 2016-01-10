@@ -38,12 +38,13 @@ input {
 }
 
 .form-header li {
+  background: #f6f8f8;
+  color: #29ABA4;
   margin: 0;
   line-height: 60px;
-  width: 200px;
+  width: 400px;
   text-align: center;
-  background: #f7f9f9;
-  font-size: 18px;
+  font-size: 24px;
   float: left;
   transition: all 600ms ease;
 }
@@ -232,9 +233,4 @@ input {
 div .form-header li a {
   text-decoration: none;
   color:gray;
-}
-
-div .form-header li:nth-child(1) {
-  background: #f6f8f8;
-  color: #29ABA4;
 }
