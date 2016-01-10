@@ -71,7 +71,12 @@ input {
 
 .login,
 .signup {
-  padding: 20px
+  padding: 20px;
+}
+
+.login p,
+.signup p {
+  color:gray;
 }
 
 .ul-list {
