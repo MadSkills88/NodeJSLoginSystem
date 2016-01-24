@@ -120,6 +120,14 @@ module.exports = function(passport) {
             else if ( !req.user.local.email ) {
                 // ...presumably they're trying to connect a local account
                 // BUT let's check if the email or username used to connect a local account is being used by another user
+                User.findOne({'local.username' : req.body.username}, function(err, user) {
+                    if (err)
+                        return done(err);
+                    // check to see if theres already a user with that email
+                    if (user) {
+                        return done(null, false, req.flash('signupMessage', 'That username is already taken.'));
+                    }
+                });
                 User.findOne({'local.email' : email}, function(err, user) {
                     if (err)
                         return done(err);
