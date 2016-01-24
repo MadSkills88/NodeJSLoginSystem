@@ -1,17 +1,22 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #666;
-  font-size: 14px;
-  color: #333;
-  background:#f6f8f8;
-  line-height:1.5em;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
-li,
-ul,
-body,
-input {
-  margin: 0;
-  padding: 0;
-  list-style: none
+body {
+  background:#f6f8f8;
+  font-family:'Roboto', sans-serif;
+  width:100%;
+  margin:0 auto;
+}
+.title1 {
+  margin:0 auto;
+  text-align:center;
+  font-size:2em;
+  width:100%;
+}
+.content1 {
+  margin:0 auto;
+  width:100%;
+  font-size:1em;
+  background:white;
+  box-sizing: border-box;
+  padding:20px;
 }

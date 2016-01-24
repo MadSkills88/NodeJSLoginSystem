@@ -9,11 +9,9 @@
     </style>
 </head>
 <body>
-<div class="container">
-
-    <div class="page-header text-center">
+<div>
+    <div class="title1">
         <h1>
-          <span class="fa fa-anchor"></span>
           <% if (user.local.email) { %>
               <p>
                   <strong><%= user.local.username %></strong>
@@ -29,26 +27,21 @@
           <% } %>
         </h1>
     </div>
-    <div class="row">
+    <!-- LOCAL INFORMATION -->
+    <div class="content1">
+        <div>
+            <% if (user.local.email) { %>
+                <p>
+                    <strong>id</strong>: <%= user._id %><br>
+                    <strong>username</strong>: <%= user.local.username %><br>
+                    <strong>email</strong>: <%= user.local.email %><br>
+                    <strong>password</strong>: <%= user.local.password %>
+                </p>
 
-        <!-- LOCAL INFORMATION -->
-        <div class="col-sm-6">
-            <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
-
-                <% if (user.local.email) { %>
-                    <p>
-                        <strong>id</strong>: <%= user._id %><br>
-                        <strong>username</strong>: <%= user.local.username %><br>
-                        <strong>email</strong>: <%= user.local.email %><br>
-                        <strong>password</strong>: <%= user.local.password %>
-                    </p>
-
-                    <a href="/unlink/local" class="btn btn-default">Unlink</a>
-                <% } else { %>
-                    <a href="/connect/local" class="btn btn-default">Connect Local</a>
-                <% } %>
-            </div>
+                <a href="/unlink/local">Unlink</a>
+            <% } else { %>
+                <a href="/connect/local">Connect Local</a>
+            <% } %>
         </div>
     </div>
 </div>
