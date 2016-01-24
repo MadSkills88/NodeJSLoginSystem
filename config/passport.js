@@ -82,10 +82,7 @@ module.exports = function(passport) {
         process.nextTick(function() {
             // if the user is not already logged in:
             if (!req.user) {
-                User.findOne({
-                    or: [{'local.email' : email}, {'local.username' : req.body.username}];
-                  });
-                User.then (function(err, user) {
+                User.findOne({or:[{'local.email' : email}, {'local.username' : req.body.username}]}, function(err, user) {
                     // if there are any errors, return the error
                     if (err)
                         return done(err);
@@ -109,8 +106,6 @@ module.exports = function(passport) {
                         });
                     }
                 });
-                User.then(res.ok);
-                User.catch(res.negotiate);
             // if the user is logged in but has no local account...
             }
 
