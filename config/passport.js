@@ -83,14 +83,14 @@ module.exports = function(passport) {
         process.nextTick(function() {
             // if the user is not already logged in:
             if (!req.user) {
-                User.findOne({'local.username' :  username, 'local.email' : email}, function(err, user) {
+                User.findOne({'local.email' : email}, function(err, user) {
                     // if there are any errors, return the error
                     if (err)
                         return done(err);
 
                     // check to see if theres already a user with that email
                     if (user) {
-                        return done(null, false, req.flash('signupMessage', 'That username or email is already taken.'));
+                        return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
                     } else {
 
                         // create the user
@@ -112,12 +112,12 @@ module.exports = function(passport) {
             } else if ( !req.user.local.email ) {
                 // ...presumably they're trying to connect a local account
                 // BUT let's check if the email or username used to connect a local account is being used by another user
-                User.findOne({'local.username' :  username, 'local.email' : email}, function(err, user) {
+                User.findOne({'local.email' : email}, function(err, user) {
                     if (err)
                         return done(err);
 
                     if (user) {
-                        return done(null, false, req.flash('loginMessage', 'That username or email is already taken.'));
+                        return done(null, false, req.flash('loginMessage', 'That email is already taken.'));
                         // Using 'loginMessage instead of signupMessage because it's used by /connect/local'
                     } else {
                         var user = req.user;
