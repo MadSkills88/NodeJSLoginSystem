@@ -1,0 +1,17 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  font-size: 14px;
+  color: #333;
+  background:#f6f8f8;
+  line-height:1.5em;
+}
+
+li,
+ul,
+body,
+input {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
