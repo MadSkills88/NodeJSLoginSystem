@@ -13,7 +13,7 @@
         <div>
             <ul class="form-header">
                 <li>
-                    <label for="login"><i class="fa fa-lock"></i>CONNECT LOCAL ACCOUNT</label>
+                    <label for="login"><i class="fa fa-lock"></i> CONNECT LOCAL ACCOUNT</label>
                 </li>
             </ul>
         </div>
@@ -25,6 +25,9 @@
                 <div class="login">
                     <form action="/connect/local" method="post">
                         <ul class="ul-list">
+                            <li>
+                                <input name="username" type="text" required class="input" placeholder="Epic Username" /><span class="icon"><i class="fa fa-pen"></i></span></li>
+                            <li>
                             <li>
                                 <input name="email" type="email" required class="input" placeholder="Your Email" /><span class="icon"><i class="fa fa-user"></i></span></li>
                             <li>
