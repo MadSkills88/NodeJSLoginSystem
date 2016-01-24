@@ -16,12 +16,12 @@ body {
 }
 .content1 {
   float:left;
-  width:50%;
+  width:60%;
   font-size:1em;
   background:white;
   box-sizing: border-box;
-  padding:20px;
+  padding:30px;
   line-height:1em;
   border-radius:4px;
-  border: 1px solid ghostwhite;
+  border: 1px solid whitesmoke;
 }

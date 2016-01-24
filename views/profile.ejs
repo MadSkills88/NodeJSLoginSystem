@@ -3,6 +3,7 @@
 <head>
     <title>Node Authentication</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="/css/form-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/profile1.css" type="text/css"/>
     <style>
         body         { padding-top:80px; word-wrap:break-word; }
@@ -30,6 +31,20 @@
     <!-- LOCAL INFORMATION -->
     <div class="content1">
         <div>
+            <form action="" method="post">
+                <ul class="ul-list">
+                    <li>
+                        <input name="usernameChange" type="email" required class="input" placeholder="Username" /><span class="icon"><i class="fa fa-user"></i></span></li>
+                    <li>
+                    <li>
+                        <input name="emailChange" type="email" required class="input" placeholder="<%= user.local.email %>" /><span class="icon"><i class="fa fa-user"></i></span></li>
+                    <li>
+                        <input name="passwordChange" type="password" required class="input" placeholder="Password" /><span class="icon"><i class="fa fa-lock"></i></span></li>
+                    <li>
+                        <input type="submit" value="SAVE CHANGES" class="btn">
+                    </li>
+                </ul>
+            </form>
             <% if (user.local.email) { %>
                 <strong>id</strong>: <%= user._id %><br>
                 <strong>email</strong>: <%= user.local.email %><br>
