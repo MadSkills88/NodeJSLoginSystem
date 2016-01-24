@@ -82,30 +82,36 @@ module.exports = function(passport) {
         process.nextTick(function() {
             // if the user is not already logged in:
             if (!req.user) {
-                User.findOne({'local.email' : email, 'local.username' : req.body.username}, function(err, user) {
+                User.findOne({'local.email' : email}, function(err, user) {
                     // if there are any errors, return the error
                     if (err)
                         return done(err);
 
                     // check to see if theres already a user with that email
                     if (user) {
-                        return done(null, false, req.flash('signupMessage', 'That username or email is already taken.'));
+                        return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
                     } else {
-
-                        // create the user
-                        var newUser = new User();
-                        newUser.local.username = req.body.username;
-                        newUser.local.email = email;
-                        newUser.local.password = newUser.generateHash(password);
-
-                        newUser.save(function(err) {
+                        User.findOne({'local.username' : req.body.username}), function(err, user) {
                             if (err)
                                 return done(err);
+                            if (user) {
+                                return done(null, false, req.flash('signupMessage', 'That username is already taken.'));
+                            } else {
+                              // create the user
+                              var newUser = new User();
+                              newUser.local.username = req.body.username;
+                              newUser.local.email = email;
+                              newUser.local.password = newUser.generateHash(password);
 
-                            return done(null, newUser);
-                        });
+                              newUser.save(function(err) {
+                                  if (err)
+                                      return done(err);
+
+                                  return done(null, newUser);
+                              });
+                            }
+                        }
                     }
-
                 });
             // if the user is logged in but has no local account...
             } else if ( !req.user.local.email ) {
