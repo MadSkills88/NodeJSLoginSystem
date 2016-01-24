@@ -31,14 +31,9 @@
     <div class="content1">
         <div>
             <% if (user.local.email) { %>
-                <p>
-                    <strong>id</strong>: <%= user._id %><br>
-                    <strong>username</strong>: <%= user.local.username %><br>
-                    <strong>email</strong>: <%= user.local.email %><br>
-                    <strong>password</strong>: <%= user.local.password %>
-                </p>
-
-                <a href="/unlink/local">Unlink</a>
+                <strong>id</strong>: <%= user._id %><br>
+                <strong>email</strong>: <%= user.local.email %><br>
+                <strong>password</strong>: <%= user.local.password %>
             <% } else { %>
                 <a href="/connect/local">Connect Local</a>
             <% } %>
