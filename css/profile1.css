@@ -29,7 +29,8 @@ body {
 .content2 {
   height:600px;
   width:400px;
-  clear:left;
-  float:right;
+  position:absolute;
+  top:0;
+  right:0;
   background:white;
 }
