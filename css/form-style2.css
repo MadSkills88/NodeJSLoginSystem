@@ -1,0 +1,92 @@
+form {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background:#f6f8f8;
+  line-height:1.5em;
+}
+
+li,
+ul,
+body,
+input {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+/*sectiop*/
+.ul-list {
+  clear: both;
+  display: table;
+  width: 100%
+}
+
+.ul-list:after {
+  content: '';
+  clear: both;
+  display: table
+}
+
+.ul-list li {
+  margin: 0 auto;
+  margin-bottom: 12px
+}
+
+.input {
+  background: #fff;
+  transition: all 800ms;
+  width: 297px;
+  border-radius: 3px 0 0 3px;
+  font-family: 'Open Sans', sans-serif;
+  border: solid 1px #ccc;
+  border-right: none;
+  outline: none;
+  color: #999;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 16px
+}
+
+.input:focus:invalid {
+  border-color: red
+}
+
+.input:focus:invalid+.icon {
+  border-color: red
+}
+
+.input:focus:valid {
+  border-color: green
+}
+
+.input:focus:valid+.icon {
+  border-color: green
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: #29ABA4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  width: 300px;
+  padding: 0 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #FFF;
+}
+.btn:hover {
+  background:#38cfc7;
+}
+.form a i.fa {
+  line-height: 35px;
+}
+div .form-header li a {
+  text-decoration: none;
+  color:gray;
+}
