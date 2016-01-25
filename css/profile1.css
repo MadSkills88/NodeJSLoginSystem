@@ -8,10 +8,6 @@ body {
   box-sizing: border-box;
   padding:40px;
 }
-hr {
-  background:#f6f8f8;
-  width:100%;
-}
 .title1 {
   margin:0 auto;
   text-align:center;
