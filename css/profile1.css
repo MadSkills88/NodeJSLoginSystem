@@ -15,7 +15,7 @@ body {
   width:100%;
 }
 .content1 {
-  float:right;
+  float:left;
   width:700px;
   font-size:1em;
   background:white;
@@ -24,10 +24,12 @@ body {
   line-height:1em;
   border-radius:12px;
   border: 1px solid whitesmoke;
+  display:inline;
 }
 .content2 {
   height:600px;
   width:400px;
+  clear:left;
+  float:right;
   background:white;
-  display:inline;
 }
