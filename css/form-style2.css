@@ -17,7 +17,8 @@ input {
 .ul-list {
   clear: both;
   display: table;
-  width: 100%
+  width: 100%;
+  margin:0 auto;
 }
 
 .ul-list:after {
@@ -74,7 +75,7 @@ label {
   margin: 0 auto;
   display: block;
   height: 40px;
-  width: 300px;
+  width: 200px;
   padding: 0 10px;
   border-radius: 3px;
   font-size: 16px;
