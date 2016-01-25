@@ -36,9 +36,9 @@ label {
 .input {
   background: #fff;
   transition: all 800ms;
-  width: 100%;
+  width: 90%;
   margin:0 auto;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
   font-family: 'Open Sans', sans-serif;
   border: solid 1px #ccc;
   outline: none;

@@ -61,13 +61,6 @@
                     </li>
                 </ul>
             </form>
-            <% if (user.local.email) { %>
-                <strong>id</strong>: <%= user._id %><br>
-                <strong>email</strong>: <%= user.local.email %><br>
-                <strong>password</strong>: <%= user.local.password %>
-            <% } else { %>
-                <a href="/connect/local">Connect Local</a>
-            <% } %>
         </div>
     </div>
 </div>
