@@ -3,7 +3,6 @@ form {
   font-size: 14px;
   line-height:1.5em;
 }
-
 li,
 ul,
 body,
@@ -12,7 +11,6 @@ input {
   padding: 0;
   list-style: none
 }
-
 /*sectiop*/
 .ul-list {
   clear: both;
@@ -20,13 +18,11 @@ input {
   width: 100%;
   margin:0 auto;
 }
-
 .ul-list:after {
   content: '';
   clear: both;
   display: table
 }
-
 .ul-list li {
   margin: 0 auto;
   margin-bottom: 12px
@@ -39,7 +35,7 @@ label {
   transition: all 800ms;
   width: 640px;
   margin:0 auto;
-  border-radius: 3px;
+  border-radius: 6px;
   font-family: 'Open Sans', sans-serif;
   border: solid 1px #ccc;
   outline: none;
@@ -48,6 +44,7 @@ label {
   line-height: 40px;
   display: inline-block;
   font-size: 16px;
+  padding-left:10px;
 }
 
 .input:focus:invalid {
@@ -89,4 +86,11 @@ label {
 div .form-header li a {
   text-decoration: none;
   color:gray;
+}
+
+#currentPasswordConfirmation {
+  width:90%;
+  margin: 0 auto;
+  background: #cbd7d7;
+  border-radius: 6px;
 }
