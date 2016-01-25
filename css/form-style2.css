@@ -21,7 +21,7 @@ input {
 .ul-list {
   clear: both;
   display: table;
-  width: 630px;
+  width: 620px;
   margin:0 auto;
 }
 .ul-list:after {
