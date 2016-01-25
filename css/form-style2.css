@@ -30,15 +30,17 @@ input {
   margin: 0 auto;
   margin-bottom: 12px
 }
-
+label {
+  font-weight:bold;
+}
 .input {
   background: #fff;
   transition: all 800ms;
-  width: 297px;
+  width: 100%;
+  margin:0 auto;
   border-radius: 3px 0 0 3px;
   font-family: 'Open Sans', sans-serif;
   border: solid 1px #ccc;
-  border-right: none;
   outline: none;
   color: #999;
   height: 40px;
