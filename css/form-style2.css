@@ -89,13 +89,19 @@ div .form-header li a {
 }
 
 #currentPasswordConfirmation {
-  width:90%;
+  width:100%;
   margin: 0 auto;
   background: #cbd7d7;
   border-radius: 6px;
+  box-sizing: border-box;
+  padding:30px;
+
+}
+
+#changePasswordConfirm {
+  width:90%;
 }
 
 #avatarheader {
   width:100%;
-  
 }
