@@ -15,7 +15,7 @@ input {
 .ul-list {
   clear: both;
   display: table;
-  width: 100%;
+  width: 640px;
   margin:0 auto;
 }
 .ul-list:after {
@@ -34,7 +34,7 @@ label {
 .input {
   background: #fff;
   transition: all 800ms;
-  width: 636px;
+  width:100%;
   margin:0 auto;
   border-radius: 3px;
   font-family: 'Open Sans', sans-serif;
@@ -111,5 +111,4 @@ div .form-header li a {
 #avatarheader {
   width:100%;
   height:80px;
-  border-bottom:1px solid #f6f8f8;
 }
