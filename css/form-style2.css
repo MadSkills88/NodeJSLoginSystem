@@ -35,7 +35,7 @@ label {
   transition: all 800ms;
   width: 640px;
   margin:0 auto;
-  border-radius: 6px;
+  border-radius: 3px;
   font-family: 'Open Sans', sans-serif;
   border: solid 1px #ccc;
   outline: none;
@@ -93,4 +93,9 @@ div .form-header li a {
   margin: 0 auto;
   background: #cbd7d7;
   border-radius: 6px;
+}
+
+#avatarheader {
+  width:100%;
+  
 }
