@@ -27,12 +27,16 @@
                 <li><a href="#" style="height:20px;"> Code </a></li>
                 <li><a href="#" style="height:20px;"> Path </a></li>
                 <li>
-                    <div id="profile-pic1-thumbnail-nav-container">
-                        <img id="profile-pic1-thumbnail-nav" src="" alt="?"></img>
+                    <a style="height:20px;" href="#">
+                        <% if (user.local.email) { %>
+                                <strong><%= user.local.username %></strong>
+                        <% } else if (user.facebook.token) { %>
+                                <strong><%= user.facebook.name %></strong>
+                        <% } else { %>
+                                <strong>My Account</strong>
+                        <% } %>
                         <b class = "caret"></b>
-                    </div>
                     </a>
-
                 </li>
             </ul>
         </div>
