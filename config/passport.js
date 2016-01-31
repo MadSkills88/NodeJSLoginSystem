@@ -387,7 +387,10 @@ module.exports = function(passport) {
         });
 
     }));
-//PROFILE INFORMATION CHANGE
+
+    // =========================================================================
+    // PROFILE INFORMATION CHANGE===============================================
+    // =========================================================================
     passport.use('local-update', new LocalStrategy({
         // by default, local strategy uses username and password, we will override with email
         newUsernameField : 'emailChange',

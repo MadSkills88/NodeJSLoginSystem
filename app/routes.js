@@ -10,8 +10,7 @@ module.exports = function(app, passport) {
     // PROFILE SECTION =========================
     app.get('/profile', isLoggedIn, function(req, res) {
         res.render('profile.ejs', {
-            user : req.user,
-            message: req.flash('profileMessage')
+            user : req.user
         });
     });
 
@@ -53,11 +52,11 @@ module.exports = function(app, passport) {
         }));
 
         //PROFILE SECTION CHANGE ACCOUNT INFORMATION FORM
-    app.post('/profile', passport.authenticate('local-update', {
-        successRedirect : '/logout', // redirect to the secure profile section
-        failureRedirect : '/profile', // redirect to the secure profile section
-        failureFlash : true // allow flash messages
-    }));
+        app.post('/profile', passport.authenticate('local-update', {
+            successRedirect : '/logout', // redirect to the secure profile section
+            failureRedirect : '/profile', // redirect to the secure profile section
+            failureFlash : true // allow flash messages
+        }));
 
 
     // facebook -------------------------------
