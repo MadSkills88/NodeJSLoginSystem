@@ -65,18 +65,13 @@ tbody.collapse.in {
     display: none;
     float: left;
     padding: 5px 0;
-    margin: 2px 0 0;
     font-size: 14px;
     text-align: left;
     list-style: none;
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 .dropdown-menu.pull-right {
     right: 0;
@@ -496,11 +491,10 @@ tbody.collapse.in {
 
 #nav ul {
     list-style: none;
-    background:green;
 }
-@media (max-width:820px) {
+@media (min-width:820px) {
   #nav ul {
-    padding-left:100px;
+    padding-left:40px;
   }
 }
 #nav ul ul {
@@ -580,4 +574,9 @@ tbody.collapse.in {
     color: #111;
     position: relative;
     top: 1px;
+}
+
+.navbar-header {
+  padding-left:40px;
+  padding-right:40px;
 }
