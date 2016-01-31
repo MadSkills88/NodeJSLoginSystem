@@ -13,6 +13,12 @@ module.exports = function(app, passport) {
             user : req.user
         });
     });
+        //PROFILE SECTION CHANGE ACCOUNT INFORMATION FORM
+    app.post('/profile', passport.authenticate('local-update', {
+        successRedirect : '/profile', // redirect to the secure profile section
+        failureRedirect : '/profile', // redirect to the secure profile section
+        failureFlash : true // allow flash messages
+    }));
 
     // LOGOUT ==============================
     app.get('/logout', function(req, res) {

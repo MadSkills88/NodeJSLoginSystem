@@ -387,5 +387,45 @@ module.exports = function(passport) {
         });
 
     }));
+//PROFILE INFORMATION CHANGE
+    passport.use('local-update', new LocalStrategy({
+        // by default, local strategy uses username and password, we will override with email
+        newUsernameField : 'emailChange',
+        newPasswordField : 'passwordChange',
+        passReqToCallback : true // allows us to pass in the req from our route (lets us check if a user is logged in or not)
+    },
+    function(req, email, password, done) {
+        if (email)
+            email = email.toLowerCase(); // Use lower-case e-mails to avoid case-sensitive e-mail matching
+
+        // asynchronous
+        process.nextTick(function() {
+            // if the user is not already logged in:
+            User.findOne({'local.email' : email}, function(err, user) {
+                // if there are any errors, return the error
+                if (err)
+                    return done(err);
+
+                // check to see if theres already a user with that email
+                if (user) {
+                    return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
+                }
+                else {
+                    // update the user's information
+                    user.local.email = emailChange;
+                    user.local.password = user.generateHash(passwordChange);
+
+                    user.save(function(err) {
+                        if (err)
+                            return done(err);
+
+                        return done(null, user);
+                    });
+                }
+            });
+        });
+
+    }));
+
 
 };
