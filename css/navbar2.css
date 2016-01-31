@@ -195,6 +195,8 @@ tbody.collapse.in {
     .navbar-nav {
         float: left;
         margin: 0;
+        overflow-x:hidden;
+        background:blue;
     }
     .navbar-nav > li {
         float: left;
@@ -211,7 +213,6 @@ tbody.collapse.in {
     .navbar-right {
         float: right !important;
         margin-right: -15px;
-        width:98%;
     }
     .navbar-right ~ .navbar-right {
         margin-right: 0;
