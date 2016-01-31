@@ -64,9 +64,6 @@ tbody.collapse.in {
     position: relative;
     display: block;
     padding: 15px 10px 10px 15px;
-    width:100px;
-    overflow-x:hidden;
-
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -418,4 +415,8 @@ tbody.collapse.in {
     padding-left:0px;
     padding-right:0px;
   }
+}
+
+.nav {
+  background:green;
 }
