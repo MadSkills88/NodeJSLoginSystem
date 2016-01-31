@@ -416,7 +416,8 @@ tbody.collapse.in {
     padding-right:0px;
   }
 }
-
-.nav {
-  width:90%;
+@media all and (min-width:820px) {}
+  .nav {
+    width:90%;
+  }
 }
