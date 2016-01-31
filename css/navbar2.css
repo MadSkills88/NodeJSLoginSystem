@@ -1,6 +1,3 @@
-* {
-  overflow-x:hidden;
-}
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -418,4 +415,7 @@ tbody.collapse.in {
     padding-left:0px;
     padding-right:0px;
   }
+}
+.nav {
+  overflow-x:hidden;
 }
