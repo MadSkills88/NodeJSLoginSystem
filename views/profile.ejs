@@ -24,36 +24,16 @@
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder" id="nav">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" style="height:20px;"> Code </a></li>
-                <li><a href="#" style="height:20px;"> Path </a></li>
-                <li id="last_menu_item" class="dropdown">
-                    <a id = "dropdownlink" style="height:20px;" class = "dropdown-toggle" data-toggle ="dropdown" href="#">
-                        My Account <b class = "caret"></b>
+                <li><a href="#"> Code </a></li>
+                <li><a href="#"> Path </a></li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img id="profile-pic1-thumbnail-nav" src="" alt="?"></img>
+                            <b class = "caret"></b>
+                        </div>
                     </a>
-                    <ul style="z-index:20;" class="dropdown-menu">
-                        <li><a href="#"><span>My Profile</span></a></li>
-                        <li><a href="#"><span>Options</span></a></li>
-                        <li><a href="#"><span>Log out</span></a></li>
-                    </ul>
-                    <script>
-                                $(document).ready(function(){
-                        $(this).scrollTop(0);
-                        });
-                                var dropdownlink = document.getElementById('dropdownlink');
-                                if ($(window).width() > 800) {
-                        dropdownlink.className = 'dropdown-toggle disabled';
-                        }
-                        else {
-                        dropdownlink.className = 'dropdown-toggle';
-                        }
-                        window.addEventListener('resize', function(event){
-                        if ($(window).width() > 800) {
-                        dropdownlink.className = 'dropdown-toggle disabled';
-                        }
-                        else {
-                        dropdownlink.className = 'dropdown-toggle';
-                        }
-                        });</script>
+
                 </li>
             </ul>
         </div>
