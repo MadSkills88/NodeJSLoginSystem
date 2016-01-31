@@ -64,7 +64,7 @@ tbody.collapse.in {
     position: relative;
     display: block;
     padding: 15px 10px 10px 15px;
-    background:green!important;
+    width:90%;
 
 }
 .nav > li > a:hover,
@@ -214,8 +214,6 @@ tbody.collapse.in {
 @media (min-width: 820px) {
     .navbar-left {
         float: left !important;
-        background:red!important;
-
     }
     .navbar-right {
         float: right !important;
