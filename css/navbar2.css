@@ -63,10 +63,15 @@ tbody.collapse.in {
 .nav > li > a {
     position: relative;
     display: block;
-    box-sizing:border-box;
     padding: 15px 10px 10px 15px;
-
 }
+@media all and (min-width: 820px) {
+  .nav > li > a {
+    padding-right:0;
+    width:90%;
+  }
+}
+
 .nav > li > a:hover,
 .nav > li > a:focus {
     text-decoration: none;
