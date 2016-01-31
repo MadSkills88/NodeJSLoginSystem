@@ -52,7 +52,7 @@ module.exports = function(app, passport) {
         }));
 
         //PROFILE SECTION CHANGE ACCOUNT INFORMATION FORM
-        app.post('/profile', passport.authenticate('local-update', {
+        app.post('/profile', passport.authenticate('local', {
             successRedirect : '/logout', // redirect to the secure profile section
             failureRedirect : '/profile', // redirect to the secure profile section
             failureFlash : true // allow flash messages
