@@ -63,7 +63,9 @@ tbody.collapse.in {
 .nav > li > a {
     position: relative;
     display: block;
+    box-sizing:border-box;
     padding: 15px 10px 10px 15px;
+
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -414,10 +416,5 @@ tbody.collapse.in {
   .navbar-header {
     padding-left:0px;
     padding-right:0px;
-  }
-}
-@media all and (max-width:820px) {}
-  .nav {
-    width:90%;
   }
 }
