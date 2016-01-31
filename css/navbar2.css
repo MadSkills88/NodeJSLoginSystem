@@ -440,7 +440,7 @@ tbody.collapse.in {
 }
 #custom.navbar-default .navbar-toggle {
     border-color: #237A3B;
-    background-color:#29ABA4;
+    background-color:white;
 }
 #custom.navbar-default .navbar-toggle:hover,
 #custom.navbar-default .navbar-toggle:focus {
@@ -580,7 +580,7 @@ tbody.collapse.in {
 #nav {
   padding-right:40px;
 }
-@media all and (min-width:820px) {
+@media all and (max-width:820px) {
   #nav {
     padding-right:0px;
   }
