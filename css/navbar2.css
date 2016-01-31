@@ -64,7 +64,8 @@ tbody.collapse.in {
     position: relative;
     display: block;
     padding: 15px 10px 10px 15px;
-    width:90%;
+    width:100px;
+    overflow-x:hidden;
 
 }
 .nav > li > a:hover,
@@ -197,18 +198,13 @@ tbody.collapse.in {
     .navbar-nav {
         float: left;
         margin: 0;
-        background:blue!important;
     }
     .navbar-nav > li {
         float: left;
-        background:blue!important;
-
     }
     .navbar-nav > li > a {
         padding-top: 15px;
         padding-bottom: 15px;
-        background:blue!important;
-
     }
 }
 @media (min-width: 820px) {
