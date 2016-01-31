@@ -39,7 +39,7 @@ body {
   height:600px;
   width:480px;
   position:absolute;
-  top:670px;
+  top:770px;
   left:760px;
   background:white;
   font-size:1em;
@@ -49,8 +49,8 @@ body {
 }
 #profile-pic1 {
   border-radius:50%;
-  width:140px;
-  height:140px;
+  width:200px;
+  height:200px;
   background:white;
   margin:0 auto;
 }
