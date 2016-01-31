@@ -418,8 +418,5 @@ tbody.collapse.in {
 }
 
 .nav {
-  width:100px;
-}
-.nav li {
-  width:200px;
+  width:90%;
 }
