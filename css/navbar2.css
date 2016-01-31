@@ -418,8 +418,8 @@ tbody.collapse.in {
 }
 
 .nav {
-  background:green;
+  width:100px;
 }
 .nav li {
-  background:green;
+  width:200px;
 }
