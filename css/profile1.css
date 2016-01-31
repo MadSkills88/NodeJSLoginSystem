@@ -14,8 +14,9 @@ body {
 .title1 {
   margin:0 auto;
   text-align:center;
-  font-size:1.4em;
+  font-size:1.6em;
   width:100%;
+  padding:0;
 }
 .content0 {
   margin:0 auto;
