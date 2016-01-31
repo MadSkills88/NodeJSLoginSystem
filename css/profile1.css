@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   padding:40px;
 }
+
 .title1 {
   margin:0 auto;
   text-align:center;
@@ -38,7 +39,7 @@ body {
   height:600px;
   width:480px;
   position:absolute;
-  top:270px;
+  top:670px;
   left:760px;
   background:white;
   font-size:1em;
@@ -48,8 +49,8 @@ body {
 }
 #profile-pic1 {
   border-radius:50%;
-  width:100px;
-  height:100px;
+  width:140px;
+  height:140px;
   background:white;
   margin:0 auto;
 }
