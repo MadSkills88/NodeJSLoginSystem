@@ -10,6 +10,8 @@ body {
 .main {
   box-sizing:border-box;
   padding:40px;
+  margin:0 auto;
+  background:black;
 }
 .title1 {
   margin:0 auto;
