@@ -57,6 +57,7 @@ body {
   height:200px;
   background:white;
   margin:0 auto;
+  border:2px solid #29ABA4;
 }
 #nav {
   width:100%;
