@@ -492,11 +492,7 @@ tbody.collapse.in {
 #nav ul {
     list-style: none;
 }
-@media (min-width:820px) {
-  #nav ul {
-    padding-left:40px;
-  }
-}
+
 #nav ul ul {
     margin:0;
     padding:0;
@@ -579,4 +575,9 @@ tbody.collapse.in {
 .navbar-header {
   padding-left:40px;
   padding-right:40px;
+}
+
+#nav {
+  padding-right:40px;
+  
 }
