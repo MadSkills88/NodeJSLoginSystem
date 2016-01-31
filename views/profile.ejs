@@ -5,11 +5,27 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/form-style2.css" type="text/css">
     <link rel="stylesheet" href="/css/profile1.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/navbar.css" type="text/css"/>
 </head>
 <body>
-    <nav id="nav">
-
-    </nav>
+    <div id="header" class="header sticky">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="rectangle-button"><a href="#">SOME</a></li>
+                <li class="rectangle-button"><a href="#">THING</a></li>
+                <li class="rectangle-button"><a href="#">MORE</a></li>
+                <li class="rectangle-button"><a href="/logout" id="account-tab" class="circle-nav-button"></a></li>
+            </ul>
+        </nav>
+    </div>
     <section class="main">
         <section>
             <div class="title1">

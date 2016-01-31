@@ -51,7 +51,13 @@ a:focus {
   z-index: 1;
   text-align: right;
 }
-#navbar ul li a {
+
+.rectangle-button {
+  margin-bottom: 0;
+  margin-left:24px;
+}
+
+.rectangle-button a {
   border: 2px solid #29ABA4;
   color:#29ABA4;
   text-align:center;
@@ -64,15 +70,21 @@ a:focus {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-#navbar ul li a:hover {
+
+.rectangle-button a:hover {
   color: #38cfc7;
   border:2px solid #38cfc7;
   background:white;
 }
 
-#header li {
-  margin-bottom: 0;
-  margin-left:24px;
+#navbar ul li {
+  border: 2px solid #29ABA4;
+  color:#29ABA4;
+  text-align:center;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 740px) {
@@ -172,4 +184,11 @@ a:focus {
   position: absolute;
   top: 0.5em;
   right: 0.5em;
+}
+
+/**MAIN NAVBAR FOR INSIDE**/
+.circle-nav-button {
+  border-radius:50%;
+  height:40px;
+  width:40px;
 }
