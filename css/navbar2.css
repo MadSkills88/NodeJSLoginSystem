@@ -65,7 +65,7 @@ tbody.collapse.in {
     display: block;
     padding: 15px 10px 10px 15px;
 }
-@media all and (min-width: 820px) {
+@media all and (max-width: 820px) {
   .nav {
     padding-right:0;
     width:90%;
