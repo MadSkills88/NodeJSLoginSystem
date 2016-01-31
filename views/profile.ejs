@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/profile1.css" type="text/css"/>
     <link rel="stylesheet" href="/css/navbar2.css" type="text/css"/>
     <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/navbar2.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="custom" class="navbar navbar-default" role="navigation" style="z-index:100;">
@@ -23,20 +24,17 @@
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder" id="nav">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" style="height:20px;"> Main Terminal</a></li>
-                <li><a href="#" style="height:20px;"> Learn </a></li>
                 <li><a href="#" style="height:20px;"> Code </a></li>
-                <li><a href="#" style="height:20px;"> Members </a></li>
-                <li><a href="#" style="height:20px;"> News</a></li>
+                <li><a href="#" style="height:20px;"> Path </a></li>
                 <li id="last_menu_item" class="dropdown">
-                    <a id = "dropdownlink" style="height:20px;" class = "dropdown-toggle" data-toggle ="dropdown" href="account.php">
+                    <a id = "dropdownlink" style="height:20px;" class = "dropdown-toggle" data-toggle ="dropdown" href="#">
                         My Account <b class = "caret"></b>
                     </a>
-                        <ul style="z-index:20;" class="dropdown-menu">
-                            <li><a href="#"><span>My Profile</span></a></li>
-                            <li><a href="#"><span>Options</span></a></li>
-                            <li><a href="#"><span>Log out</span></a></li>
-                        </ul>
+                    <ul style="z-index:20;" class="dropdown-menu">
+                        <li><a href="#"><span>My Profile</span></a></li>
+                        <li><a href="#"><span>Options</span></a></li>
+                        <li><a href="#"><span>Log out</span></a></li>
+                    </ul>
                     <script>
                                 $(document).ready(function(){
                         $(this).scrollTop(0);
