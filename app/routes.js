@@ -50,14 +50,14 @@ module.exports = function(app, passport) {
             failureRedirect : '/signup', // redirect back to the signup page if there is an error
             failureFlash : true // allow flash messages
         }));
-
+        /**
         //PROFILE SECTION CHANGE ACCOUNT INFORMATION FORM
-        app.post('/profile', passport.authenticate('local', {
+        app.post('/profile', passport.authenticate('local-update', {
             successRedirect : '/logout', // redirect to the secure profile section
             failureRedirect : '/profile', // redirect to the secure profile section
             failureFlash : true // allow flash messages
         }));
-
+        **/
 
     // facebook -------------------------------
 
