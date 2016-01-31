@@ -66,7 +66,7 @@ tbody.collapse.in {
     padding: 15px 10px 10px 15px;
 }
 @media all and (min-width: 820px) {
-  .nav > li > a {
+  .nav {
     padding-right:0;
     width:90%;
   }
