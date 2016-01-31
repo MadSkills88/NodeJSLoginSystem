@@ -400,7 +400,6 @@ module.exports = function(passport) {
 
         // asynchronous
         process.nextTick(function() {
-            // if the user is not already logged in:
             User.findOne({'local.email' : email}, function(err, user) {
                 // if there are any errors, return the error
                 if (err)
