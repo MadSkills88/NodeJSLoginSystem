@@ -39,8 +39,7 @@ body {
 .content2 {
   height:600px;
   width:480px;
-  position:absolute;
-  top:1010px;
+  position:relative;
   left:760px;
   background:white;
   font-size:1em;
