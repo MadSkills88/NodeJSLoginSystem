@@ -60,8 +60,9 @@ body {
   margin:0 auto;
   border:2px solid #29ABA4;
 }
-#profile-pic1-thumbnail-nav {
+#profile-pic1-thumbnail-nav-container {
   height:16px;
   width:16px;
   border-radius:50%;
+  border:1px solid #29ABA4;
 }
