@@ -497,8 +497,11 @@ tbody.collapse.in {
 #nav ul {
     list-style: none;
     background:green;
-    padding-left:30px;
-    padding-right:30px;
+}
+@media (max-width:820px) {
+  #nav ul {
+    padding-left:100px;
+  }
 }
 #nav ul ul {
     margin:0;
