@@ -10,76 +10,84 @@
     </style>
 </head>
 <body>
-<div>
-    <div class="title1">
-        <h1>
-          <% if (user.local.email) { %>
-              <p>
-                  <strong><%= user.local.username %></strong>
-              </p>
-          <% } else if (user.facebook.token) { %>
-              <p>
-                  <strong><%= user.facebook.name %></strong>
-              </p>
-          <% } else { %>
-              <p>
-                  <strong>Welcome Back!</strong>
-              </p>
-          <% } %>
-        </h1>
-    </div>
-    <!-- LOCAL INFORMATION -->
-    <h2>Edit Profile</h2>
-    <div class="content1">
-        <div id="avatarheader">
-
+    <section>
+        <div class="title1">
+            <h1>
+              <% if (user.local.email) { %>
+                  <p>
+                      <strong><%= user.local.username %></strong>
+                  </p>
+              <% } else if (user.facebook.token) { %>
+                  <p>
+                      <strong><%= user.facebook.name %></strong>
+                  </p>
+              <% } else { %>
+                  <p>
+                      <strong>Welcome Back!</strong>
+                  </p>
+              <% } %>
+            </h1>
         </div>
-        <hr><br>
-        <div>
-          <form action="/profile" method="post">
-              <ul class="ul-list">
-                  <li>
-                      <label for="id">ID Number</label><br>
-                      <input id="id" name="idNumber" type="text" required class="input" placeholder="<%= user._id %>" readonly/>
-                  </li>
-                  <li>
-                      <label for="changeName">Name</label><br>
-                      <input id="changeName" name="nameChange" type="text" required class="input" placeholder=""/>
-                  </li>
-                  <li>
-                      <label for="changeUsername">Username</label><br>
-                      <input id="changeUsername" name="usernameChange" type="text" required class="input" placeholder="<%= user.local.username %>"/>
-                  </li>
-                  <li>
-                      <label for="changeEmail">Email</label><br>
-                      <input id="changeEmail" name="emailChange" type="email" required class="input" placeholder="<%= user.local.email %>"/>
-                  </li>
-                  <li>
-                      <label for="changePassword">New Password</label><br>
-                      <input id="changePassword" name="passwordChange" type="password" required class="input" placeholder=""/>
-                  </li>
-                  <li>
-                      <label for="changePasswordConfirm">Confirm New Password</label><br>
-                      <input id="changePasswordConfirm" name="passwordChangeConfirm" type="password" required class="input" placeholder=""/>
-                  </li>
-                  <li>
-                      <div id="currentPasswordConfirmation">
-                          <p>Please enter your current password to make profile changes</p><br>
-                          <label for="currentPasswordConfirm">Current Password</label><br>
-                          <input id="currentPasswordConfirm" name="passwordChangeConfirm" type="password" required class="input" placeholder=""/><br>
-                      </div>
-                  </li>
-                  <li>
-                      <br><hr><br>
-                      <input type="submit" value="SAVE CHANGES" class="btn">
-                  </li>
-              </ul>
-          </form>
+    </section>
+    <!-- CHANGE LOCAL INFORMATION -->
+    <section id="stats">
+        <div id="profile-pic1"></div>
+        <h2>Account Information</h2>
+            <div class="content0">
+            </div>
+    </section>
+    <section>
+        <h2>Edit Profile</h2>
+        <div class="content1">
+            <div id="avatarheader">
+            </div>
+            <hr><br>
+            <div>
+              <form action="/profile" method="post">
+                  <ul class="ul-list">
+                      <li>
+                          <label for="id">ID Number</label><br>
+                          <input id="id" name="idNumber" type="text" required class="input" placeholder="<%= user._id %>" readonly/>
+                      </li>
+                      <li>
+                          <label for="changeName">Name</label><br>
+                          <input id="changeName" name="nameChange" type="text" required class="input" placeholder=""/>
+                      </li>
+                      <li>
+                          <label for="changeUsername">Username</label><br>
+                          <input id="changeUsername" name="usernameChange" type="text" required class="input" placeholder="<%= user.local.username %>"/>
+                      </li>
+                      <li>
+                          <label for="changeEmail">Email</label><br>
+                          <input id="changeEmail" name="emailChange" type="email" required class="input" placeholder="<%= user.local.email %>"/>
+                      </li>
+                      <li>
+                          <label for="changePassword">New Password</label><br>
+                          <input id="changePassword" name="passwordChange" type="password" required class="input" placeholder=""/>
+                      </li>
+                      <li>
+                          <label for="changePasswordConfirm">Confirm New Password</label><br>
+                          <input id="changePasswordConfirm" name="passwordChangeConfirm" type="password" required class="input" placeholder=""/>
+                      </li>
+                      <li>
+                          <div id="currentPasswordConfirmation">
+                              <p>Please enter your current password to make profile changes</p><br>
+                              <label for="currentPasswordConfirm">Current Password</label><br>
+                              <input id="currentPasswordConfirm" name="passwordChangeConfirm" type="password" required class="input" placeholder=""/><br>
+                          </div>
+                      </li>
+                      <li>
+                          <br><hr><br>
+                          <input type="submit" value="SAVE CHANGES" class="btn">
+                      </li>
+                  </ul>
+              </form>
+            </div>
         </div>
-    </div>
-    <div class="content2">
-
-    </div>
-</div>
+        <div class="content2">
+        </div>
+    </section>
+    <section>
+    </section>
 </body>
 </html>
