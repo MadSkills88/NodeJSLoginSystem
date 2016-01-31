@@ -64,6 +64,8 @@ tbody.collapse.in {
     position: relative;
     display: block;
     padding: 15px 10px 10px 15px;
+    background:blue!important;
+
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -195,20 +197,25 @@ tbody.collapse.in {
     .navbar-nav {
         float: left;
         margin: 0;
-        overflow-x:hidden;
-        background:blue;
+        background:blue!important;
     }
     .navbar-nav > li {
         float: left;
+        background:blue!important;
+
     }
     .navbar-nav > li > a {
         padding-top: 15px;
         padding-bottom: 15px;
+        background:blue!important;
+
     }
 }
 @media (min-width: 820px) {
     .navbar-left {
         float: left !important;
+        background:blue!important;
+
     }
     .navbar-right {
         float: right !important;
