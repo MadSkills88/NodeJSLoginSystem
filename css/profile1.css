@@ -52,7 +52,7 @@ body {
   border-radius:12px;
   border: 1px solid whitesmoke;
 }
-#profile-pic1 {
+#profile-pic1 img {
   border-radius:50%;
   width:200px;
   height:200px;
