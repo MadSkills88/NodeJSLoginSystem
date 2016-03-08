@@ -60,3 +60,11 @@ body {
   margin:0 auto;
   border:2px solid #29ABA4;
 }
+#profile-pic1 img {
+  border-radius:50%;
+  width:200px;
+  height:200px;
+  background:white;
+  margin:0 auto;
+  border:2px solid #29ABA4;
+}
