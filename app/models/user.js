@@ -15,7 +15,7 @@ var userSchema = mongoose.Schema({
         token        : String,
         email        : String,
         name         : String,
-        photos       : String
+        picture      : String
     },
     twitter          : {
         id           : String,
