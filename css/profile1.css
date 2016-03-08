@@ -59,5 +59,4 @@ body {
   background:white;
   margin:0 auto;
   border:2px solid #29ABA4;
-  background: url('<%= user.facebook.picture %>');
 }
