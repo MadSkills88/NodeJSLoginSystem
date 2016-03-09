@@ -69,7 +69,7 @@ body {
 }
 .link_account-container {
   width:300px;
-  background: white;
+  background: red;
   margin:0 auto;
   text-align:center;
 }
@@ -79,12 +79,10 @@ body {
   border: 2px solid #29ABA4;
   text-align:center;
   float:left;
-  position:absolute;
 }
 .link_account-check {
   width:60px;
   float: right;
-  position:absolute;
   background: #29ABA4;
 }
 @media all and (max-width:400px) {
