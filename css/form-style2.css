@@ -55,11 +55,11 @@ label {
 }
 
 .input:focus:invalid {
-  border-color: red
+  border-color: red;
 }
 
 .input:focus:invalid+.icon {
-  border-color: red
+  border-color: red;
 }
 
 .input:focus:valid {
