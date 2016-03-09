@@ -111,3 +111,17 @@ body {
     width:520px;
   }
 }
+@media all and (max-with:1100px) {
+  .content1 {
+    width:560px;
+  }
+  .ul-list {
+    width:480px;
+  }
+  .content2 {
+    width:440px;
+  }
+  .link_account-container {
+    width:360px;
+  }
+}
