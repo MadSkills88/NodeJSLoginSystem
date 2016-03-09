@@ -92,8 +92,8 @@ body {
   color:white;
 }
 .link_account-check {
-  width:60px;
-  height:60px;
+  width:50px;
+  height:50px;
   float: right;
   border: 2px solid #29ABA4;
   background:#29ABA4;
@@ -144,7 +144,7 @@ body {
     width:320px;
   }
 }
-@media all and (max-width:1000px) {
+@media all and (max-width:1020px) {
   .content1 {
     width:460px;
   }
