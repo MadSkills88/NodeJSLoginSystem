@@ -173,11 +173,11 @@ body {
     width:240px;
   }
   .link_account {
-    width:120px;
+    width:140px;
     font-size:14px;
   }
 }
-@media all and (max-width:800px) {
+@media all and (max-width:820px) {
   .content1 {
     width:100%;
   }
