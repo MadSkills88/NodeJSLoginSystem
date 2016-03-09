@@ -46,8 +46,7 @@ body {
 .content2 {
   height:600px;
   width:480px;
-  position:relative;
-  left:730px;
+  float:right;
   background:white;
   font-size:1em;
   line-height:1em;
