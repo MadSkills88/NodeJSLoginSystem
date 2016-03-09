@@ -48,6 +48,7 @@ body {
   width:480px;
   float:right;
   background:white;
+  box-sizing: border-box;
   font-size:1em;
   line-height:1em;
   border-radius:12px;
