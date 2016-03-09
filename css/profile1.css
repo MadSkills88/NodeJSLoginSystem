@@ -150,10 +150,10 @@ body {
     width:340px;
   }
   .link_account-container {
-    width:300px;
+    width:280px;
   }
   .link_account {
-    width:140px;
+    width:160px;
   }
   .link_account-check {
     width:60px;
@@ -170,10 +170,11 @@ body {
     width:300px;
   }
   .link_account-container {
-    width:260px;
+    width:240px;
   }
   .link_account {
     width:120px;
+    font-size:14px;
   }
 }
 @media all and (max-width:800px) {
