@@ -344,14 +344,12 @@ tbody.collapse.in {
 	top:100%;
 	left:0;
 	background:white;
-  padding-left:15px;
-  padding-right:15px;
-  box-sizing:border-box;
+  width:100%;
 }
 
 #nav ul ul li {
 	float:none;
-	width:200px;
+	width:100%;
   padding-top:10px;
   padding-bottom:10px;
   height:20px;
@@ -361,6 +359,9 @@ tbody.collapse.in {
 #nav ul ul a  {
   padding-top:10px;
   padding-bottom:10px;
+  padding-left:15px;
+  padding-right:15px;
+  box-sizing:border-box;
   text-decoration:none;
   color: #29ABA4;
   height:20px;
