@@ -346,7 +346,7 @@ tbody.collapse.in {
 	background:white;
   padding-left:15px;
   padding-right:15px;
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 #nav ul ul li {
@@ -355,7 +355,6 @@ tbody.collapse.in {
   padding-top:10px;
   padding-bottom:10px;
   height:20px;
-  width:100%;
   border-bottom: 2px solid #29ABA4;
 }
 
