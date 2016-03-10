@@ -379,6 +379,9 @@ tbody.collapse.in {
 .compact-sub-menu1 {
   display:none!important;
 }
+.compact-sub-menu1 a {
+  display:none!important;
+}
 
 @media all and (max-width:820px) {
   #nav {
@@ -401,6 +404,9 @@ tbody.collapse.in {
     display:none;
   }
   .compact-sub-menu1 {
+    display:block;
+  }
+  .compact-sub-menu1 a {
     display:block;
   }
 }
