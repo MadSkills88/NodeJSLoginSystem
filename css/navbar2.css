@@ -376,12 +376,7 @@ tbody.collapse.in {
 
 
 .compact-sub-menu1 {
-  display:none;
-  visibility:hidden;
-}
-.compact-sub-menu1 a {
-  display:none;
-  visibility:hidden;
+  display:none!important;
 }
 
 @media all and (max-width:820px) {
@@ -405,11 +400,6 @@ tbody.collapse.in {
     display:none;
   }
   .compact-sub-menu1 {
-    display:block;
-    visibility:visible;
-  }
-  .compact-sub-menu1 a {
-    display:block;
-    visibility:visible;
+    display:block!important;
   }
 }
