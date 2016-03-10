@@ -327,86 +327,6 @@ tbody.collapse.in {
     list-style: none;
 }
 
-/**
-nav ul ul {
-    margin:0;
-    padding:0;
-    opacity: 0;
-    position: absolute;
-    top: 50px;
-    visibility: hidden;
-    width: 0;
-    -moz-transition: all 300ms ease-out;
-    -webkit-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-}
-
-#nav ul li:hover ul {
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-}
-
-#nav ul ul li {
-    background: #f3f3f3;
-    float: none;
-    line-height: 0;
-    width: 100%;
-}
-
-#nav ul ul li:nth-child(odd) {
-    background: #eee;
-}
-
-#nav ul ul li:first-child, #nav ul ul li:first-child a {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-}
-#nav ul ul li:last-child, #nav ul ul li:last-child a {
-    -webkit-border-radius: 0 0 3px 3px;
-    -moz-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px;
-}
-
-#nav ul ul li a {
-    border-right: none;
-    border-left: none;
-    border-top: 1px solid #fff;
-    color: #555;
-    font-size: 16px;
-    height: 36px;
-    line-height: 36px;
-    padding: 0 0 0 15px;
-    text-align: left;
-    text-shadow: 0 -1px 0 #eee;
-}
-
-#nav ul li ul li a:after {
-    background: rgba(0,0,0,.02);
-    content: "";
-    height: 18px;
-    left: 0;
-    position: absolute;
-    top: 19px;
-    width: 100%;
-}
-
-#nav ul ul li a:hover {
-    background: #ffd;
-    color: #111;
-    text-shadow: 0 1px 0 #fff;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-#nav ul ul a:active span {
-    color: #111;
-    position: relative;
-    top: 1px;
-}
-**/
 .navbar-header {
   padding-left:40px;
   padding-right:40px;
@@ -418,8 +338,7 @@ nav ul ul {
 
 /**/
 
-#nav ul ul
-{
+#nav ul ul {
 	display:none;
 	position:absolute;
 	top:100%;
@@ -428,26 +347,19 @@ nav ul ul {
 	padding:0;
 }
 
-#nav ul ul li
-{
+#nav ul ul li {
 	float:none;
 	width:200px
 }
 
-#nav ul ul a
-{
-	line-height:120%;
-	padding:10px 15px
+#nav ul ul a  {
+  padding: 15px 10px 10px 15px;
+  text-decoration:none;
+  color: #38cfc7;
+  border-bottom: 1px #38cfc7;
 }
 
-#nav ul ul ul
-{
-	top:0;
-	left:100%
-}
-
-#nav ul li:hover > ul
-{
+#nav ul li:active > ul {
 	display:block
 }
 
