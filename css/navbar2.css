@@ -377,7 +377,7 @@ tbody.collapse.in {
 /**/
 
 .compact-sub-menu1 {
-  display:none;
+  display:none!important;
 }
 
 @media all and (max-width:820px) {
