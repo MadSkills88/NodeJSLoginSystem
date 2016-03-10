@@ -376,6 +376,10 @@ tbody.collapse.in {
 
 /**/
 
+.compact-sub-menu1 {
+  display:none;
+}
+
 @media all and (max-width:820px) {
   #nav {
     padding-right:0px;
@@ -388,12 +392,15 @@ tbody.collapse.in {
 
 @media all and (max-width:820px) {
   #nav ul li ul {
-  	display:block;
+  	display:none;
   }
   #nav ul ul {
-  	display:block;
+  	display:none;
   }
   #user-account1 {
     display:none;
+  }
+  .compact-sub-menu1 {
+    display:block;
   }
 }
