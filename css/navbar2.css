@@ -349,17 +349,18 @@ tbody.collapse.in {
 
 #nav ul ul li {
 	float:none;
-	width:200px
+	width:200px;
+  height:20px;
 }
 
 #nav ul ul a  {
   padding: 15px 10px 10px 15px;
   text-decoration:none;
   color: #38cfc7;
-  border-bottom: 1px #38cfc7;
+  border-bottom: 1px solid #38cfc7;
 }
 
-#nav ul li:active > ul {
+#nav ul li:hover > ul {
 	display:block
 }
 
