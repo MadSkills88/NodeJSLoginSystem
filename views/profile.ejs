@@ -30,8 +30,8 @@
                 <li><a href="#" style="height:20px;"> Courses </a></li>
                 <li><a href="#" style="height:20px;"> Path </a></li>
                 <li><a href="#" style="height:20px;"> Help </a></li>
-                <li>
-                    <a style="height:20px;" href="#" id="user-tab">
+                <li id="user-tab">
+                    <a style="height:20px;" href="#">
                         <% if (user.local.email) { %>
                                 <strong><%= user.local.username %></strong>
                         <% } else if (user.facebook.token) { %>
