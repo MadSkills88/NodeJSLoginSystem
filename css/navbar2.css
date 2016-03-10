@@ -344,7 +344,8 @@ tbody.collapse.in {
 	top:100%;
 	left:0;
 	background:white;
-	padding:0;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 #nav ul ul li {
@@ -352,19 +353,17 @@ tbody.collapse.in {
 	width:200px;
   padding-top:10px;
   padding-bottom:10px;
-  padding-left:15px;
-  padding-right:15px;
   height:20px;
+  width:100%;
 }
 
 #nav ul ul a  {
   padding-top:10px;
   padding-bottom:10px;
   text-decoration:none;
-  color: #38cfc7;
-  border-bottom: 1px solid #38cfc7;
+  color: #29ABA4;
+  border-bottom: 2px solid #29ABA4;
   height:20px;
-  width:100%;
 }
 
 #nav ul li:hover > ul {
