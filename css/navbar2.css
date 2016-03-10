@@ -336,7 +336,7 @@ tbody.collapse.in {
   padding-right:40px;
 }
 
-/**Make sub-dropdown open on click instead of on hover
+/**Make sub-dropdown open on click instead of on hover**/
 
 #nav ul ul {
 	display:none;
@@ -353,6 +353,7 @@ tbody.collapse.in {
   padding-top:10px;
   padding-bottom:10px;
   height:20px;
+  /**border-bottom: 2px solid #29ABA4;**/
 }
 
 #nav ul ul a  {
@@ -369,28 +370,11 @@ tbody.collapse.in {
 #nav ul ul a:hover  {
   color:#38cfc7;
 }
-
-/**/
-
-.displayInBlock {
+#nav ul li:hover > ul {
 	display:block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
+/**/
 
 @media all and (max-width:820px) {
   #nav {
