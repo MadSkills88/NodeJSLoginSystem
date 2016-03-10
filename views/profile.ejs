@@ -31,7 +31,7 @@
                 <li><a href="#" style="height:20px;"> Path </a></li>
                 <li><a href="#" style="height:20px;"> Help </a></li>
                 <li>
-                    <a style="height:20px;" href="#">
+                    <a style="height:20px;" href="#" id="user-tab">
                         <% if (user.local.email) { %>
                                 <strong><%= user.local.username %></strong>
                         <% } else if (user.facebook.token) { %>
@@ -41,7 +41,7 @@
                         <% } %>
                         <b class = "caret"></b>
                     </a>
-                    <ul>
+                    <ul id="sub-menu1">
                         <li><a href="/profile" style="height:20px;">My Profile</a></li>
                         <li><a href="#" style="height:20px;">Settings</a></li>
                         <li><a href="/logout" style="height:20px;">Log out</a></li>
@@ -184,6 +184,11 @@
             </div>
         </section>
     </section>
+    <script type='text/javascript'>
+        $("#user-tab").click(function(){
+            $("#sub-menu1").toggleClass("displayInBlock");
+        });
+    </script>
     <script src="/js/waypoints.js" type='text/javascript'></script>
     <script src="/js/statscounter.js" type='text/javascript'></script>
     <script src="/js/easypiechart.js" type='text/javascript'></script>
