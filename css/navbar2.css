@@ -346,6 +346,7 @@ tbody.collapse.in {
 	background:white;
   padding-left:15px;
   padding-right:15px;
+  box-sizing: border-box;
 }
 
 #nav ul ul li {
@@ -355,6 +356,7 @@ tbody.collapse.in {
   padding-bottom:10px;
   height:20px;
   width:100%;
+  border-bottom: 2px solid #29ABA4;
 }
 
 #nav ul ul a  {
@@ -362,8 +364,8 @@ tbody.collapse.in {
   padding-bottom:10px;
   text-decoration:none;
   color: #29ABA4;
-  border-bottom: 2px solid #29ABA4;
   height:20px;
+  width:100%;
 }
 
 #nav ul li:hover > ul {
