@@ -327,7 +327,8 @@ tbody.collapse.in {
     list-style: none;
 }
 
-#nav ul ul {
+/**
+nav ul ul {
     margin:0;
     padding:0;
     opacity: 0;
@@ -405,7 +406,7 @@ tbody.collapse.in {
     position: relative;
     top: 1px;
 }
-
+**/
 .navbar-header {
   padding-left:40px;
   padding-right:40px;
@@ -423,8 +424,8 @@ tbody.collapse.in {
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#fff;
-	padding:0
+	background:white;
+	padding:0;
 }
 
 #nav ul ul li
