@@ -3,12 +3,11 @@
 <head>
     <title>Profile</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/navbar.css" type="text/css"/>
-    <link rel="stylesheet" href="/css/form-style2.css" type="text/css">
     <link rel="stylesheet" href="/css/profile1.css" type="text/css"/>
     <link rel="stylesheet" href="/css/navbar2.css" type="text/css"/>
     <link rel='stylesheet' id='parent-style-css'  href="/css/oneengine1.css" type='text/css' media='all' />
     <link rel='stylesheet' id='bootstrap-style-css'  href="/css/oneengine_bootstrap.css" type='text/css' media='all' />
+    <link rel="stylesheet" href="/css/form-style2.css" type="text/css">
     <script src="/js/jquery.js" type="text/javascript"></script>
     <script src="/js/navbar2.js" type="text/javascript"></script>
 </head>
@@ -116,11 +115,11 @@
                       <ul class="ul-list">
                           <li>
                               <label for="id">ID Number</label><br>
-                              <input id="id" name="idNumber" type="text" required class="input" placeholder="<%= user._id %>"/>
+                              <input id="id" name="idNumber" type="text" required class="input" placeholder="<%= user._id %>" readonly/>
                           </li>
                           <li>
                               <label for="changeName">Name</label><br>
-                              <input id="changeName" name="nameChange" type="text" required class="input" placeholder="hi"/>
+                              <input id="changeName" name="nameChange" type="text" required class="input" placeholder=""/>
                           </li>
                           <li>
                               <label for="changeUsername">Username</label><br>
