@@ -390,5 +390,10 @@ tbody.collapse.in {
   #nav ul li ul {
   	display:block;
   }
-  
+  #nav ul ul {
+  	display:block;
+  }
+  #user-account1 {
+    display:none;
+  }
 }
