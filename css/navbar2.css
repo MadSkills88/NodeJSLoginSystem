@@ -414,6 +414,44 @@ tbody.collapse.in {
 #nav {
   padding-right:40px;
 }
+
+/**/
+
+#nav ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#nav ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#nav ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#nav ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#nav ul li:hover > ul
+{
+	display:block
+}
+
+/**/
+
 @media all and (max-width:820px) {
   #nav {
     padding-right:0px;
