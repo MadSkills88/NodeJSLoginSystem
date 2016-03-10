@@ -336,7 +336,7 @@ tbody.collapse.in {
   padding-right:40px;
 }
 
-/**/
+/**Make sub-dropdown open on click instead of on hover**/
 
 #nav ul ul {
 	display:none;
@@ -367,8 +367,10 @@ tbody.collapse.in {
   height:20px;
   width:100%;
 }
-
-#nav ul li:hover > ul {
+#nav ul ul a:hover  {
+  color:#38cfc7;
+}
+#nav ul li:focus > ul {
 	display:block
 }
 
