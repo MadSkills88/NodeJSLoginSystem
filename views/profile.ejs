@@ -31,7 +31,6 @@
                 <li><a href="#" style="height:20px;"> Path </a></li>
                 <li><a href="#" style="height:20px;"> Help </a></li>
                 <li id="user-tab">
-                    <a style="height:20px;" href="#">
                         <% if (user.local.email) { %>
                                 <strong><%= user.local.username %></strong>
                         <% } else if (user.facebook.token) { %>
@@ -40,7 +39,6 @@
                                 <strong>My Account</strong>
                         <% } %>
                         <b class = "caret"></b>
-                    </a>
                     <ul id="sub-menu1">
                         <li><a href="/profile" style="height:20px;">My Profile</a></li>
                         <li><a href="#" style="height:20px;">Settings</a></li>
