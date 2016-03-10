@@ -370,7 +370,7 @@ tbody.collapse.in {
 #nav ul ul a:hover  {
   color:#38cfc7;
 }
-#nav ul li:focus > ul {
+.displayInBlock {
 	display:block;
 }
 
