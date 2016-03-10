@@ -385,3 +385,12 @@ tbody.collapse.in {
     padding-right:0px;
   }
 }
+
+@media all and (max-width:820px) {
+  #nav ul li ul {
+  	display:block;
+  }
+  #user-account1 {
+    display:none;
+  }
+}

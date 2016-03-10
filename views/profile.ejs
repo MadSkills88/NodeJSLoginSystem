@@ -31,7 +31,7 @@
                 <li><a href="#" style="height:20px;"> Path </a></li>
                 <li><a href="#" style="height:20px;"> Help </a></li>
                 <li>
-                    <a style="height:20px;" href="#">
+                    <a style="height:20px;" href="#" id="user-account1">
                         <% if (user.local.email) { %>
                                 <strong><%= user.local.username %></strong>
                         <% } else if (user.facebook.token) { %>
@@ -180,6 +180,7 @@
                     </a>
                     <div class="link_account-check disabled"/></div>
                 </div>
+                <br><br>
                 <div class="link_account-container">
                     <a href="connect/linkedin">
                         <div class="link_account"/>Connect to LinkedIn</div>
